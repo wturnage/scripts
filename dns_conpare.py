@@ -117,8 +117,7 @@ def usage():
   """prints usage for user """
   print "Usage: ", sys.argv[0], "--server1 <ip address> --server2 <ip address> --file <DNS input file> [--type <record type>] " 
 
-  print '\nThe DNS record file should be generaged using "/opt/incontrol/dns/sbin/rndc dumpdb -zones" command on ip-srv1.'
-  print 'This will generate the file named "/opt/incontrol/dns/db/named_dump.db"'
+  print '\nThe DNS record file should be generaged using "rndc dumpdb -zones" command on your DNS server.'
 
 
 #calls main if the file was run directly 
