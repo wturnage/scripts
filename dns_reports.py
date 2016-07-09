@@ -74,4 +74,3 @@ def mailer(body):
 
 if __name__ == '__main__':
   main()
-wturnage@wor
