@@ -38,7 +38,6 @@ def ipFinder(filename):
     for line in doc:
       if date in line and "PTR" not in line:
         ip = re.findall( r'[0-9]+(?:\.[0-9]+){3}', line ) # matches all IPs
-        #ip = re.findall( r'[129,160,10,192,172]+(?:\.[0-9]+){3}', line ) # maches internal IPs
         ips.append(ip[0])
   return ips
 
